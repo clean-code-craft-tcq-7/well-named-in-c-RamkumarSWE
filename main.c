@@ -8,7 +8,7 @@ int main() {
 
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
-    printf("\n\nPrinting Color and Numbers\n\n")
+    printf("\n\nPrinting Color and Numbers\n\n");
     PrintColorPairs();
 
     return 0;
