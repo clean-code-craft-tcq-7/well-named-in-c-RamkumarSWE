@@ -10,6 +10,5 @@ int main() {
     testPairToNumber(VIOLET, SLATE, 25);
     printf("\n\nPrinting Color and Numbers\n\n");
     PrintColorPairs();
-
     return 0;
 }
