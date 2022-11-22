@@ -42,6 +42,6 @@ void PrintColorPairs(void) {
     for (Number = 1; Number <= MAXCOLORPAIRNUMBER; Number++) {
         Color = GetColorFromPairNumber(Number);
         ColorPairToString(&Color, ColorString);
-        printf("Number = %d\tColor = %s\n", Number, ColorString);
+        printf("Number = %d: Color = %s\n", Number, ColorString);
     }
 } 
